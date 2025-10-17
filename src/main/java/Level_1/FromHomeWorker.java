@@ -1,3 +1,5 @@
+package Level_1;
+
 public class FromHomeWorker extends Worker {
     final Double INTERNET_PRICE = 65.90;
 

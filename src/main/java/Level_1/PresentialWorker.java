@@ -1,4 +1,6 @@
-public class PresentialWorker extends Worker{
+package Level_1;
+
+public class PresentialWorker extends Worker {
     protected static Double gas;
 
     public PresentialWorker(String name, String secondName, Double pricePerHour, Double gas) {
