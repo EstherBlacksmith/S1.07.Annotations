@@ -18,4 +18,16 @@ public class FromHomeWorker extends Worker {
 
         return totalSalary;
     }
+    @Deprecated
+    protected void deprecatedOne(){
+        System.out.println("This method is old");
+    }
+    @Deprecated
+    protected void deprecatedTwo(){
+        System.out.println("This method is old too");
+    }
+    @Deprecated
+    protected void deprecatedThree(){
+        System.out.println("This method is old and rancid");
+    }
 }

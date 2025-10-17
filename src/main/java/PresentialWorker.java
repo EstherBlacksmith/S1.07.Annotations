@@ -29,4 +29,11 @@ public class PresentialWorker extends Worker{
 
         return totalSalary;
     }
+    @Deprecated
+    protected void deprecatedThings(){
+        String [] deprecatedThings = {"Patriarchy", "Racism", "Capitalism"};
+        for(String oldThings: deprecatedThings ){
+            System.out.println(oldThings);
+        }
+    }
 }
