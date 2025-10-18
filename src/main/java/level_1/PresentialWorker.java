@@ -1,19 +1,19 @@
-package Level_1;
+package level_1;
 
 public class PresentialWorker extends Worker {
     protected static Double gas;
 
     public PresentialWorker(String name, String secondName, Double pricePerHour, Double gas) {
         super(name, secondName, pricePerHour);
-        if (gas < 0 ) {
+        if (gas < 0) {
             throw new IllegalArgumentException("It's impossible to pay negative gas: " + gas);
         }
-        this.gas = gas;
+        PresentialWorker.gas = gas;
     }
 
 
     public static void setGas(Double gas) {
-        if (gas < 0 ) {
+        if (gas < 0) {
             throw new IllegalArgumentException("It's impossible to pay negative gas: " + gas);
         }
         PresentialWorker.gas = gas;
@@ -31,10 +31,11 @@ public class PresentialWorker extends Worker {
 
         return totalSalary;
     }
+
     @Deprecated
-    protected void deprecatedThings(){
-        String [] deprecatedThings = {"Patriarchy", "Racism", "Capitalism"};
-        for(String oldThings: deprecatedThings ){
+    protected void deprecatedThings() {
+        String[] deprecatedThings = {"Patriarchy", "Racism", "Capitalism"};
+        for (String oldThings : deprecatedThings) {
             System.out.println(oldThings);
         }
     }

@@ -1,4 +1,4 @@
-package Level_1;
+package level_1;
 
 public class FromHomeWorker extends Worker {
     final Double INTERNET_PRICE = 65.90;
@@ -20,16 +20,19 @@ public class FromHomeWorker extends Worker {
 
         return totalSalary;
     }
+
     @Deprecated
-    protected void deprecatedOne(){
+    protected void deprecatedOne() {
         System.out.println("This method is old");
     }
+
     @Deprecated
-    protected void deprecatedTwo(){
+    protected void deprecatedTwo() {
         System.out.println("This method is old too");
     }
+
     @Deprecated
-    protected void deprecatedThree(){
+    protected void deprecatedThree() {
         System.out.println("This method is old and rancid");
     }
 }
